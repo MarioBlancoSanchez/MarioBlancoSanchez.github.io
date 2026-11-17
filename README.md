@@ -1,11 +1,9 @@
 # Mario Blanco-Sánchez — Plant evolutionary ecology
 
-Static website prepared for publication through GitHub Pages at `https://marioblancosanchez.github.io/`.
+Personal academic website, hosted with GitHub Pages at <https://marioblancosanchez.github.io/>.
 
-## Publish
+## Updating the site
 
-1. Create a public repository named `MarioBlancoSanchez.github.io` under the `MarioBlancoSanchez` GitHub account.
-2. Upload the contents of this folder to the repository root, preserving the `assets/` and `papers/` folders.
-3. In **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
+The site is a static website. Its source files live in this repository. Publication records are maintained in `publications.js`, and the coauthor network is maintained in `collaborations.js`. To update either, edit the relevant file and commit the change to `main`; GitHub Pages will redeploy automatically.
 
-The site is static. Publication records and the coauthor network are currently maintained in `publications.js` and `collaborations.js`; they need an edit and a new commit when the underlying information changes.
+Paper PDFs are stored in `papers/`, and the CV, portrait, and journal images are in `assets/`. Keep these folders in place when adding or replacing files.
